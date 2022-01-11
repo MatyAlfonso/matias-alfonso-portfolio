@@ -604,10 +604,101 @@ button.btn a:hover {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
+  .nav-menu {
+    width: 80%;
+    margin: 1.5em auto;
+    height: 1vh;
+    font-size: 1.2em;
+  }
+
+  #home {
+    height: 85vh;
+  }
+
+  #title {
+    font-size: 4vh;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 2em 0.5em;
+  }
+
+  #dev-svg {
+    height: auto;
+    max-width: 55%;
+  }
+
+  #home,
+  #about-cards,
+  #gallery,
+  #work {
+    width: 50%;
+    margin: auto;
+  }
+
+  #about-cards {
+    margin: 3em auto;
+  }
+
+  #about {
+    height: 100vh;
+  }
+
+  .st {
+    margin: 0;
+  }
+
+  #work {
+    height: 70vh;
+    flex-direction: row-reverse;
+  }
+
+  #gallery {
+    margin: 3em auto;
+  }
+
+  .subtitle-light {
+    padding: 0 2em;
+    text-align: left;
+  }
+
+  #text-about-me {
+    font-size: 1.5em;
+    margin: 0;
+    line-height: 40px;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    width: 100%;
+  }
+
+  #gallery img {
+    max-width: 100%;
+  }
+
+  .flexbox-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+  }
+
+  #contact {
+    height: 40vh;
+    text-align: center;
+  }
+
+  .little-subtitle {
+    text-align: center;
+    margin-top: 1em;
+  }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 2560px) {
   .nav-menu {
     width: 80%;
     margin: 1.5em auto;
@@ -685,6 +776,7 @@ button.btn a:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     width: 80%;
   }
 
