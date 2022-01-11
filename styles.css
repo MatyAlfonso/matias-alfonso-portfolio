@@ -703,6 +703,7 @@ button.btn a:hover {
     width: 80%;
     margin: 1.5em auto;
     height: 1vh;
+    font-size: 1.5em;
   }
 
   #home {
@@ -710,7 +711,7 @@ button.btn a:hover {
   }
 
   #title {
-    font-size: 4vh;
+    font-size: 3em;
     font-weight: bold;
     text-transform: uppercase;
     text-align: left;
@@ -720,6 +721,11 @@ button.btn a:hover {
   #dev-svg {
     height: auto;
     max-width: 55%;
+  }
+
+  #btn-vm {
+    font-size: 1.4em;
+    margin: 1em;
   }
 
   #home,
@@ -734,12 +740,32 @@ button.btn a:hover {
     margin: 3em auto;
   }
 
+  .skill-title{
+    font-size: 2em;
+  }
+  ul.list{
+    font-size: 1.5em;
+  }
+
   #about {
     height: 100vh;
   }
 
+  .subtitle-light {
+    padding: 0 2em;
+    text-align: left;
+    font-size: 4em;
+  }
+
+  #text-about-me {
+    font-size: 2em;
+    margin: 0 2em;
+    line-height: 50px;
+  }
+
   .st {
     margin: 0;
+    font-size: 4em;
   }
 
   #work {
@@ -747,19 +773,16 @@ button.btn a:hover {
     flex-direction: row-reverse;
   }
 
+  .subtitle-dark{
+    font-size: 4em;
+  }
+
+  #work img{
+    max-width: 100%;
+  }
+
   #gallery {
     margin: 3em auto;
-  }
-
-  .subtitle-light {
-    padding: 0 2em;
-    text-align: left;
-  }
-
-  #text-about-me {
-    font-size: 1em;
-    margin: 0 2em;
-    line-height: 25px;
   }
 
   .card1,
