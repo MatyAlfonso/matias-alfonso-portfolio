@@ -420,7 +420,7 @@ button.btn a:hover {
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 /* QUERIES */
-@media (max-width: 425px) {
+@media (max-width: 600px) {
   .nav-menu {
     display: flex;
     justify-content: center;
@@ -474,10 +474,12 @@ button.btn a:hover {
     width: 100%;
   }
   .st {
-      margin: 1em;
+    margin: 1em;
   }
-  .card1, .card2, .card3 {
-      width: 80%;
+  .card1,
+  .card2,
+  .card3 {
+    width: 80%;
   }
   .skills-container {
     flex-direction: column;
@@ -499,13 +501,107 @@ button.btn a:hover {
   .little-subtitle {
     text-align: center;
   }
-  .contact-container-social{
-      text-align: center;
+  .contact-container-social {
+    text-align: center;
+  }
+}
+
+@media (min-width: 601px) {
+  .nav-menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  #logo {
+    display: none;
+  }
+  #home {
+    height: 85vh;
+    flex-direction: column-reverse;
+  }
+  #dev-svg {
+    height: auto;
+    max-width: 70%;
+  }
+  #title {
+    font-size: 3vh;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2em 0.5em;
+  }
+  #MatiasAlfonso {
+    font-size: 1em;
+  }
+  #text-btn-container {
+    margin-top: 5em;
+  }
+  #btn-vm {
+    margin: 2em auto;
+  }
+  #about {
+    height: 100vh;
+  }
+  .subtitle-light {
+    margin: 1em;
+    text-align: center;
+  }
+  #text-about-me {
+    font-size: 1.5em;
+    padding: 2em;
+    width: 100%;
+  }
+  .st {
+    margin: 1em;
+  }
+  .card1,
+  .card2,
+  .card3 {
+    width: 80%;
+  }
+  #work {
+    flex-direction: column-reverse;
   }
 
+  .little-subtitle {
+    text-align: center;
+  }
+  .contact-container-social {
+    text-align: center;
+  }
 }
 
 @media (min-width: 768px) {
+  .nav-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  #logo {
+    display: block;
+  }
+  #home {
+    height: 85vh;
+    flex-direction: row;
+  }
+  #dev-svg {
+    height: auto;
+    max-width: 50%;
+  }
+  #title {
+    font-size: 3vh;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 2em 0.5em;
+  }
+  #btn-vm {
+    margin: 2em 1em;
+  }
+  .subtitle-light {
+    margin: 1em;
+    text-align: left;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -515,16 +611,24 @@ button.btn a:hover {
   .nav-menu {
     width: 80%;
     margin: 1.5em auto;
-    height: 10vh;
+    height: 1vh;
   }
 
   #home {
-    height: 77vh;
+    height: 85vh;
+  }
+
+  #title {
+    font-size: 4vh;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 2em 0.5em;
   }
 
   #dev-svg {
     height: auto;
-    max-width: 50%;
+    max-width: 55%;
   }
 
   #home,
@@ -540,11 +644,16 @@ button.btn a:hover {
   }
 
   #about {
-    height: 40vh;
+    height: 100vh;
+  }
+
+  .st {
+    margin: 0;
   }
 
   #work {
     height: 70vh;
+    flex-direction: row-reverse;
   }
 
   #gallery {
@@ -553,6 +662,7 @@ button.btn a:hover {
 
   .subtitle-light {
     padding: 0 2em;
+    text-align: left;
   }
 
   #text-about-me {
@@ -575,6 +685,7 @@ button.btn a:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 80%;
   }
 
   #contact {
