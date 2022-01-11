@@ -664,9 +664,9 @@ button.btn a:hover {
   }
 
   #text-about-me {
-    font-size: 1.5em;
+    font-size: 1em;
     margin: 0;
-    line-height: 40px;
+    line-height: 25px;
   }
 
   .card1,
@@ -758,7 +758,7 @@ button.btn a:hover {
   }
 
   #text-about-me {
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 0 2em;
     line-height: 50px;
   }
