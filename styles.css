@@ -469,8 +469,8 @@ button.btn a:hover {
     height: 165vh;
   }
   #text-about-me {
-    font-size: 1.5em;
-    padding: 2em;
+    font-size: 1.2em;
+    padding: 1em;
     width: 100%;
   }
   .st {
@@ -547,8 +547,8 @@ button.btn a:hover {
     text-align: center;
   }
   #text-about-me {
-    font-size: 1.5em;
-    padding: 2em;
+    font-size: 1.2em;
+    padding: 1em;
     width: 100%;
   }
   .st {
@@ -601,6 +601,10 @@ button.btn a:hover {
   .subtitle-light {
     margin: 1em;
     text-align: left;
+  }
+  #text-about-me {
+    font-size: 1.4em;
+    padding: 2em;
   }
 }
 
@@ -666,7 +670,7 @@ button.btn a:hover {
   #text-about-me {
     font-size: 1em;
     margin: 0;
-    line-height: 25px;
+    line-height: 35px;
   }
 
   .card1,
@@ -758,8 +762,8 @@ button.btn a:hover {
   }
 
   #text-about-me {
-    font-size: 1.5em;
-    margin: 0 2em;
+    font-size: 1em;
+    margin: 0;
     line-height: 50px;
   }
 
