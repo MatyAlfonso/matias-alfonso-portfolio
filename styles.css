@@ -231,6 +231,19 @@ label {
   padding: 2em;
   font-weight: 500;
 }
+
+.download-btn{
+  padding: 0 1em;
+  margin: 1em auto;
+  text-align: center;
+}
+
+
+.download-btn:hover{
+  background-color: black;
+  color: white;
+  border-color: white;
+}
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 /* WORK SECTION */
